@@ -2,3 +2,17 @@ atomic_nature_of_matter/data
 atomic_nature_of_matter/.idea
 atomic_nature_of_matter/.vscode
 atomic_nature_of_matter/__pycache__
+markov_model/data
+markov_model/.vscode
+markov_model/__pycache__
+mozart_waltz_generator/.vscode
+mozart_waltz_generator/data
+mozart_waltz_generator/mozart_waltz_generator.pdf
+mozart_waltz_generator/mozart_waltz_generator_discussion.pdf
+mozart_waltz_generator/template.txt
+rsa_cryptosystem/.vscode
+rsa_cryptosystem/__pycache__
+rsa_cryptosystem/data
+rsa_cryptosystem/vids
+rsa_cryptosystem/rsa_cryptosystem.pdf
+rsa_cryptosystem/rsa_cryptosystem_discussion.pdf

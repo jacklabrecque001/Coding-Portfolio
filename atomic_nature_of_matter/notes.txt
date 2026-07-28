@@ -1,0 +1,49 @@
+1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+[Problem 1 (Particle Representation)]
+
+Goal: To create a blob constructor and object that defines what a blob is. also we need to define distance functions 
+and add functions.
+
+Approach: I used the outline given on the disscussion slides. defining self_.x and self._y to the 0 as the blob needs
+coordinates. These coordinates will later be changed given blob parameters. self._pixels and self._x_sum and 
+self._y_sum are also set to 0 (_sum is just an object i created to make it simpler to find the center of mass).
+Given the coordinates of a new pixel, i was able to use the formula given to find the new center of mass with the add
+function. distanceto was also simple as it only requires pythagorean formula.
+
+[Problem 2 (Particle Identification)]
+
+Goal: given a picture find the number of blobs in the picture using indepth search
+
+Approach: at first i tried to use a nested for loop to look through all the pixels and see if they met the threshold.
+after this didnt work well i moved on to a recursive function as the slides suggested doing a N E W S search pattern.
+then i realized that this wouldnt work without a starting white pixel, so i brought back the nested for loop and 
+and searched for a white pixel. then i used the recursion algorithm to find the rest of the pixels in the blob. 
+
+[Problem 3 (Particle Tracking)]
+
+Goal: to track the position of the blobs through time as the picture frames go on.
+
+Approach: for this problem i used a triple nested for loop which while extremely inneficient, worked well. i ran a 
+loop over the distance from currBlob to prevBlob and designated a variable called smallestdistance to check which blob
+was the closest.
+
+[Problem 4 (Estimating Avogadro's Constant)]
+
+Goal: to estimate avagadros Constant given data from beadtracker
+
+Approach: this was very simply done by using the formulas given. no complex concepts were involved.
+
+
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source disscussion slides, class slides                          Help Received none
+------                               -------------
+
+...                                  ...
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+...

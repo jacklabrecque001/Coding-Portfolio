@@ -1,0 +1,40 @@
+1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+[Problem 1 (RSA Library)]
+
+Goal: to write the functions that i will be using in problems 2, 3 and 4
+
+Approach: I used the methods in the outline of the discussion slides. The _primes function was espessially hard to 
+write because of the time complexity. The bot kept timing out. I wrote my code seperately.
+
+[Problem 2 (Keygen Program)]
+
+Goal: Writes the public and private keys to the user
+
+Approach: pretty straightforward approach. only needed to call the keygen function from rsa
+
+[Problem 3 (Encryption Program)]
+
+Goal: to encrypt a message that was delivered by user
+
+Approach: this was hard because the autograder was inputting parentheses into the input for some reason so i had to fix
+otherwise it was good.
+
+[Problem 4 (Decryption Program)]
+
+Goal: to decrypt a message using private and public keys
+
+Approach: ran out of time because bot died
+
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source                               Help Received
+------                               -------------
+
+...                                  ...
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+...

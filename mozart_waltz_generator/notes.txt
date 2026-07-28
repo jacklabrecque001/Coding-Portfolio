@@ -1,0 +1,31 @@
+1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+[Problem 1 (Generating the Waltz)]
+
+Goal: ...
+The objective is to create a list from the data given, take random samples from the list and store them in another list.
+
+Approach: ...
+I used the stdarray function to create a 2d list. Then I used a double for loop to populate the array with the values
+given in the zip file. Then I took random samples with a stdrandom function and created a new list formed from the 
+values from the table that were selected with the random generator.
+[Problem 2 (Playing the Waltz)]
+
+Goal: ...
+To read the output of another file using a pipe command, to use the stdaudio function and to give errors when the 
+inputs do not satisfy the parameters.
+Approach: ...
+I used basic if statements for the error messages and then for loops for the audio. I glued the file names of the music
+measures to the variable names to make the audio function work.
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source                               Help Received
+------                               -------------
+
+...                                  ...
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+...

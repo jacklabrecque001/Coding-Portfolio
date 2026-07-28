@@ -1,0 +1,47 @@
+1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+[Problem 1 (Markov Model Data Type)]
+
+Goal: Write the API for the object
+
+Approach: This part was the hardest part of the entire assignment. Mostly, I went by the outline given in the
+discussion slides. 
+My init function created a nested symbol table and stored the values of occurences of the kgram in it.
+The order function just needed to return the length of kgram we were using. 
+For kgram_freq i used a for loop to sum the occurences of the kgram in the text by looking through the symbol table.
+char_freq was easy, just needed to look through the symbol table for the number of occurences for each letter c.
+For the rand function, I used the stdrandom.discreet function that was given on the list of occurences from each 
+character c following kgram .
+The gen function was pretty simple, just needed to follow the outline given in discussion slides.
+
+The replace function was really hard for me and i didnt get full credit on this... what i struggled with most was
+trying to identify which character was the most probable GIVEN that the next character was already 
+assigned(for problem 3). I created a subfunction to make it easier to understand/write. The most annoying part
+about this function was that I was always off by one letter...
+[Problem 2 (Random Text Generator)]
+
+Goal: creates random text given an initial string of letters.
+
+Approach: This was just simply creating a MarkovModel object and then calling it using the gen API using only the first
+k characters of the text.
+
+[Problem 3 (Noisy Message Decoder)]
+
+Goal: To apply the replace function on a general text.
+
+Approach: This was just creating a MarkovModel and calling replace function from the API.
+
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source                               Help Received
+------                               -------------
+discussion slides                       None
+...                                  ...
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+annoying outputs like this make me want to tear my hair out:
+it wis the best of times, in was the worst of times.
+(off by one error)
